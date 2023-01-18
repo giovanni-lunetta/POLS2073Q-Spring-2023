@@ -1,6 +1,6 @@
 library("readxl")
 library(tidyverse)
-df = read_excel("/Users/giovanni-lunetta/POLS2073Q/height_data_spr_2022.xlsx")
+df = read_excel("/Users/giovanni-lunetta/POLS2073Q-Spring-2023/height_data_spr_2022.xlsx")
 
 # 1. mean, median, and standard deviation of mother's height.
 mean(df$`mother inches`, na.rm=TRUE)
