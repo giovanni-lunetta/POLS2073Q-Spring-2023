@@ -7,6 +7,8 @@ mean(df$`mother inches`, na.rm=TRUE)
 median(df$`mother inches`, na.rm=TRUE)
 sd(df$`mother inches`, na.rm=TRUE)
 
+sapply(df$`mother inches`, na.rm=TRUE)
+
 # 2. mean, median, and standard deviation of student's height.
 mean(df$`student inches`, na.rm=TRUE)
 median(df$`student inches`, na.rm=TRUE)
